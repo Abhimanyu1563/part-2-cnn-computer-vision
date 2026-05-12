@@ -19,10 +19,10 @@ The dataset is **perfectly balanced,** as all classes have an equal number of im
 
 To better understand the data, sample images from each class were visualized. These images clearly show distinct surface conditions:
 
-Dent images contain visible deformations
-Scratch images show linear surface damage
-Stain images contain irregular colored patches
-Normal images represent clean, undamaged surfaces
+- Dent images contain visible deformations
+- Scratch images show linear surface damage
+- Stain images contain irregular colored patches
+- Normal images represent clean, undamaged surfaces
 
 All images in the dataset have a fixed dimension of **96 × 96 pixels,** which simplifies preprocessing and allows consistent input to the CNN model.
 
