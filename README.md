@@ -31,7 +31,13 @@ Overall, the dataset is clean, well-structured, and balanced, making it highly s
 ---
 
 ## Task 3: Image Preprocessing
-(To be added)
+The image data was preprocessed to make it suitable for training a CNN model.
+
+All images were resized to a fixed dimension of **96 × 96 pixels** to ensure consistency in input shape. Pixel values were normalized by scaling them to the range **[0, 1],** which helps improve model convergence during training.
+
+The dataset was split into training and validation sets using an **80:20 ratio.** This allows the model to be evaluated on unseen data during training.
+
+Additionally, data augmentation techniques such as slight rotation, zooming, and horizontal flipping were applied to the training data. This helps improve generalization and reduces the risk of overfitting, especially given the relatively small dataset size.
 
 ---
 
