@@ -42,7 +42,17 @@ Additionally, data augmentation techniques such as slight rotation, zooming, and
 ---
 
 ## Task 4: CNN Model Creation
-(To be added)
+A Convolutional Neural Network (CNN) was developed using TensorFlow/Keras to perform multi-class classification on the image dataset.
+
+The architecture consists of three convolutional blocks. Each block includes a Conv2D layer with ReLU activation followed by a MaxPooling layer. These layers progressively extract spatial features such as edges, textures, and structural patterns while reducing the spatial dimensions of the input.
+
+After feature extraction, a Flatten layer converts the 2D feature maps into a 1D vector. This is followed by a fully connected Dense layer with 128 neurons, which helps the model learn higher-level representations.
+
+The final output layer consists of 4 neurons with Softmax activation, corresponding to the four classes: dent, normal, scratch, and stain. This allows the model to output class probabilities for multi-class classification.
+
+The model was compiled using the Adam optimizer and categorical crossentropy loss function, which is well-suited for multi-class classification tasks.
+
+The total number of trainable parameters in the model is approximately 1.7 million, providing sufficient capacity to learn meaningful visual patterns from the dataset.
 
 ---
 
