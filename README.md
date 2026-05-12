@@ -13,7 +13,20 @@ Therefore, a multi-class classification approach using a Convolutional Neural Ne
 ---
 
 ## Task 2: Dataset Exploration
-(To be added)
+The dataset consists of four classes: **dent, normal, scratch, and stain.** Each class contains **120 images,** resulting in a total of **480 images.**
+
+The dataset is **perfectly balanced,** as all classes have an equal number of images. This ensures that the model will not be biased toward any particular class during training and can learn each category effectively.
+
+To better understand the data, sample images from each class were visualized. These images clearly show distinct surface conditions:
+
+Dent images contain visible deformations
+Scratch images show linear surface damage
+Stain images contain irregular colored patches
+Normal images represent clean, undamaged surfaces
+
+All images in the dataset have a fixed dimension of **96 × 96 pixels,** which simplifies preprocessing and allows consistent input to the CNN model.
+
+Overall, the dataset is clean, well-structured, and balanced, making it highly suitable for a **multi-class image classification task.**
 
 ---
 
