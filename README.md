@@ -95,7 +95,39 @@ To conclude, the CNN model performs effectively on the classification task, achi
 ---
 
 ## Task 6: CNN Concept Explanation
-(To be added)
+**What is Convolution?**
+
+Convolution is the process of applying a small filter (kernel) over an image to extract important features such as edges, textures, or patterns. Instead of looking at the entire image at once, the model scans small regions and learns local patterns. This helps the network understand visual structures step by step.
+
+**Why is Pooling Used?**
+
+Pooling reduces the size of feature maps while keeping the most important information. For example, max pooling selects the highest value from a small region. This helps:
+- Reduce computation
+- Prevent overfitting
+- Make the model focus on dominant features
+
+**Why is ReLU Commonly Used in CNNs?**
+
+ReLU (Rectified Linear Unit) is an activation function defined as:
+
+    f(x)=max(0,x)
+
+It is widely used because:
+- It introduces non-linearity (helps learn complex patterns)
+- It is computationally efficient
+- It avoids issues like vanishing gradients
+
+**Why are CNNs Better than Feed-Forward Networks for Images?**
+
+CNNs are specifically designed for image data, unlike regular neural networks.
+- They **preserve spatial relationships** (understand where features are located)
+- They use **shared weights,** reducing the number of parameters
+- They automatically **extract features,** unlike traditional models requiring manual feature engineering
+- They are more **efficient and accurate** for visual tasks
+
+In contrast, feed-forward networks treat images as flat data, losing spatial structure and requiring far more parameters.
+
+To conclude, CNNs are powerful because they mimic how humans visually interpret patterns, by focusing on small details first and then combining them into a complete understanding. This makes them highly effective for image classification tasks like the one implemented in this project.
 
 ---
 
