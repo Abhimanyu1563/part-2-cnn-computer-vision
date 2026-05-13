@@ -132,4 +132,25 @@ To conclude, CNNs are powerful because they mimic how humans visually interpret 
 ---
 
 ## Task 7: Business Use Case Mapping
-(To be added)
+**Use Case: Manufacturing (Defect Detection)**
+
+The CNN-based image classification model developed in this project can be effectively applied in the **manufacturing industry** for automated defect detection.
+
+In production lines, products often need to be inspected for defects such as **scratches, dents, stains, or irregularities.** Traditionally, this process is done manually, which is time-consuming, costly, and prone to human error.
+
+Using a CNN model like the one built in this project:
+- Images of products can be captured in real-time using cameras
+- The model can automatically classify each product as **normal or defective (dent, scratch, stain, etc.)**
+- Defective items can be instantly flagged or removed from the production line
+
+**Business Impact**
+- **Improved Quality Control:** Consistent and accurate inspection
+- **Cost Reduction:** Less reliance on manual labor
+- **Increased Speed:** Real-time detection during production
+- **Scalability:** Easily deployable across multiple production units
+
+**Why this model fits the use case**
+
+The dataset used in this project already contains defect-based categories (dent, scratch, stain), which closely resembles real-world industrial inspection problems. This makes the trained CNN directly relevant and practically applicable.
+
+To conclude, by automating defect detection using CNNs, manufacturers can significantly enhance efficiency, reduce errors, and maintain high product quality standards. This demonstrates how computer vision can bridge the gap between AI models and real-world industrial applications.
