@@ -57,7 +57,42 @@ The total number of trainable parameters in the model is approximately 1.7 milli
 ---
 
 ## Task 5: Model Training and Evaluation
-(To be added)
+_Overview_
+
+In this task, the Convolutional Neural Network (CNN) model was trained and evaluated on the image dataset containing four classes: dent, normal, scratch, and stain.
+
+_Training Performance_
+
+The model was trained over multiple epochs, and both training and validation metrics were tracked.
+
+**Accuracy & Loss Curves**
+- Training accuracy steadily increased and reached near-perfect levels (~99–100%).
+- Validation accuracy closely followed the training curve, indicating good generalization.
+- Loss decreased consistently for both training and validation sets.
+- No major divergence between curves → no strong overfitting observed.
+
+**Confusion Matrix**
+- The confusion matrix shows predictions across all four classes.
+- The model is able to classify all categories but with some misclassifications between similar classes.
+- Classes like dent and scratch appear slightly confused in certain cases.
+- Overall, the distribution suggests the model has learned meaningful patterns but is not perfect.
+
+**Sample Predictions**
+- The model correctly identifies normal, dent, and stain in most cases.
+- Predictions align well with visible features in the images.
+- This demonstrates that the CNN is learning visual patterns effectively.
+
+_Key Observations_
+- High accuracy (~98–99%) indicates strong model performance.
+- Balanced dataset (equal samples per class) helped stable learning.
+- Minor confusion between visually similar defects still exists.
+- Model generalizes well without significant overfitting.
+
+_Conclusion_
+The CNN model performs effectively on the classification task, achieving high accuracy and stable training behavior. While performance is strong, further improvements could be made by:
+- Increasing model depth or tuning hyperparameters
+- Applying data augmentation
+- Using more complex architectures (e.g., transfer learning)
 
 ---
 
