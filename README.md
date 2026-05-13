@@ -57,11 +57,10 @@ The total number of trainable parameters in the model is approximately 1.7 milli
 ---
 
 ## Task 5: Model Training and Evaluation
-_Overview_
 
 In this task, the Convolutional Neural Network (CNN) model was trained and evaluated on the image dataset containing four classes: dent, normal, scratch, and stain.
 
-_Training Performance_
+**Training Performance**
 
 The model was trained over multiple epochs, and both training and validation metrics were tracked.
 
@@ -82,14 +81,13 @@ The model was trained over multiple epochs, and both training and validation met
 - Predictions align well with visible features in the images.
 - This demonstrates that the CNN is learning visual patterns effectively.
 
-_Key Observations_
+_My Key Observations:_
 - High accuracy (~98–99%) indicates strong model performance.
 - Balanced dataset (equal samples per class) helped stable learning.
 - Minor confusion between visually similar defects still exists.
 - Model generalizes well without significant overfitting.
 
-_Conclusion_
-The CNN model performs effectively on the classification task, achieving high accuracy and stable training behavior. While performance is strong, further improvements could be made by:
+To conclude, the CNN model performs effectively on the classification task, achieving high accuracy and stable training behavior. While performance is strong, further improvements could be made by:
 - Increasing model depth or tuning hyperparameters
 - Applying data augmentation
 - Using more complex architectures (e.g., transfer learning)
